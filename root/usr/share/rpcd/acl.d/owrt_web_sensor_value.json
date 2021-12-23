@@ -6,7 +6,7 @@
         "uci": [
           "get", "access"
         ],
-        "owrt_sensor_value": [ "get_state" ]
+        "owrt_sensor_value": [ "get_value" ]
       },
       "uci": [ "owrt_sensor_value" ]
     },

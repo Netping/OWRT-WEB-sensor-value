@@ -16,7 +16,7 @@ return L.view.extend({
 	},
 	rpcCall: rpc.declare({
 		object: 'owrt_sensor_value',
-		method: 'get_state',
+		method: 'get_value',
 		params: [ 'id_sensor' ],
 		expect: {}
 	}),
