@@ -1,0 +1,20 @@
+{
+  "owrt_web_sensor_value": {
+    "description": "UCI access to LuCI app",
+    "read": {
+      "ubus": {
+        "uci": [
+          "get", "access"
+        ],
+        "owrt_sensor_value": [ "get_state" ]
+      },
+      "uci": [ "owrt_sensor_value" ]
+    },
+    "write": {
+      "ubus": {
+        "uci": [ "set", "commit" ]
+      },
+      "uci": [ "owrt_sensor_value" ]
+    }
+  }
+}

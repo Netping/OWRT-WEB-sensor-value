@@ -1,0 +1,49 @@
+.sensors-table {
+  width: 100%;
+}
+.sensors-table tr th {
+  font-size: 1.2em;
+}
+.sensors-table tr th,
+.sensors-table tr td {
+  padding: 0.6em 1em;
+  vertical-align: middle;
+}
+.sensors-table tr:nth-child(odd) {
+  background: #f9f9f9;
+  border: 1px solid #dddddd;
+  border-left: 0;
+  border-right: 0;
+}
+.sensors-table tr:last-child {
+  border-bottom: 0;
+}
+.sensors-table tr td:nth-child(n+2) {
+  text-align: center;
+}
+.sensors-table__name {
+  text-align: left;
+}
+.sensors-table__status {
+  width: 240px;
+}
+.sensor__name {
+  position: relative;
+  min-width: 8em;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  background: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+.sensor__status {
+  padding: 4px;
+  border-radius: 4px;
+  background: #fff;
+}
+.sensor__status--0 {
+  background: #90f090;
+}

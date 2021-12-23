@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: dist/view/settings.js:24
+msgid "owrt_web_add_sensor"
+msgstr "Добавить датчик"
+
+#: dist/view/settings.js:55
+msgid "owrt_web_address"
+msgstr "Добавить датчик"
+
+#: dist/view/settings.js:25
+msgid "owrt_web_edit_sensor"
+msgstr "Редактировать датчик"
+
+#: dist/view/settings.js:70
+msgid "owrt_web_error_oid"
+msgstr "ожидается oid"
+
+#: dist/view/settings.js:30 dist/view/status.js:87
+msgid "owrt_web_name"
+msgstr "Название"
+
+#: dist/view/settings.js:32
+msgid "owrt_web_new"
+msgstr "Новый"
+
+#: dist/view/settings.js:79
+msgid "owrt_web_period"
+msgstr "Период"
+
+#: dist/view/settings.js:40
+msgid "owrt_web_precision"
+msgstr "Точность"
+
+#: dist/view/settings.js:45
+msgid "owrt_web_proto"
+msgstr "Протокол"
+
+#: dist/lua/controller/owrt_web_sensor_value.lua:4
+msgid "owrt_web_sensor_value"
+msgstr "Цифровые датчики"
+
+#: dist/view/settings.js:17
+msgid "owrt_web_sensors"
+msgstr "Датчики"
+
+#: dist/view/status.js:83
+msgid "owrt_web_sensors_status"
+msgstr "Статус датчиков"
+
+#: dist/lua/controller/owrt_web_sensor_value.lua:6
+msgid "owrt_web_settngs"
+msgstr "Настройки"
+
+#: dist/view/settings.js:50
+msgid "owrt_web_snmp_community"
+msgstr "Сообщество"
+
+#: dist/view/settings.js:67
+msgid "owrt_web_snmp_oid"
+msgstr "OID"
+
+#: dist/view/settings.js:61
+msgid "owrt_web_snmp_port"
+msgstr "Порт"
+
+#: dist/view/settings.js:73
+msgid "owrt_web_snmp_timeout"
+msgstr "Ожидание"
+
+#: dist/lua/controller/owrt_web_sensor_value.lua:5 dist/view/status.js:89
+msgid "owrt_web_status"
+msgstr "Статус"
+
+#: dist/view/status.js:29
+msgid "owrt_web_status_error"
+msgstr "ошибка"
+
+#: dist/view/status.js:27
+msgid "owrt_web_status_norm"
+msgstr "норма"
+
+#: dist/view/status.js:25
+msgid "owrt_web_status_notpolled"
+msgstr "не опрашивается"
+
+#: dist/view/status.js:28
+msgid "owrt_web_status_timeout"
+msgstr "таймаут"
+
+#: dist/view/status.js:26
+msgid "owrt_web_status_unknown"
+msgstr "не определено"
+
+#: dist/view/settings.js:35
+msgid "owrt_web_unit"
+msgstr "Еденица"
+
+#: dist/view/status.js:88
+msgid "owrt_web_value"
+msgstr "Значение"
+
+#~ msgid "owrt_web_cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "owrt_web_delete"
+#~ msgstr "Удалить"
+
+#~ msgid "owrt_web_local"
+#~ msgstr "Локальный"
+
+#~ msgid "owrt_web_new_sensor"
+#~ msgstr "Новый датчик"
+
+#~ msgid "owrt_web_off"
+#~ msgstr "Выключено"
+
+#~ msgid "owrt_web_on"
+#~ msgstr "Включено"
+
+#~ msgid "owrt_web_remote"
+#~ msgstr "Удалённый"
+
+#~ msgid "owrt_web_sensor"
+#~ msgstr "Датчик"
+
+#~ msgid "owrt_web_state"
+#~ msgstr "Состояние"
+
+#~ msgid "owrt_web_type"
+#~ msgstr "Тип"
+
+#~ msgid "owrt_web_sensor_local"
+#~ msgstr "Датчики"
+
+#~ msgid "owrt_web_sensor_smnp"
+#~ msgstr "Датчики"
+
+#~ msgid "owrt_web_snmp_addr"
+#~ msgstr "Адрес"
+
+#~ msgid "owrt_web_template"
+#~ msgstr "Шаблон"
+
+#~ msgid "owrt_web_toff_desc"
+#~ msgstr "\"Выключено\""
+
+#~ msgid "owrt_web_ton_desc"
+#~ msgstr "\"Включено\""
+
+#~ msgid "owrt_web_digital_inputs"
+#~ msgstr "Цифровые датчики"

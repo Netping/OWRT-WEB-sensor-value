@@ -1,0 +1,26 @@
+SECTION="NetPing modules"
+CATEGORY="Base"
+TITLE="EPIC OWRT-WEB-sensor-value"
+PKG_NAME="OWRT-WEB-sensor-value"
+PKG_VERSION="0.1"
+PKG_RELEASE=1
+
+MODULE_NAME=owrt_web_sensor_value
+MODULE_FILES_DIR=/usr/lib/lua/luci/
+ACL_FILES_DIR=/usr/share/rpcd/acl.d/
+STATIC_FILES_DIR=/www/luci-static/resources/view/
+
+.PHONY: all install clean
+
+all: install
+
+install:
+	cp -r luasrc/* $(MODULE_FILES_DIR)
+	cp -r root/usr/share/rpcd/acl.d/* $(ACL_FILES_DIR)
+	cp -r luci-static/resources/view/* $(STATIC_FILES_DIR)
+
+clean:
+	rm $(MODULE_FILES_DIR)controller/$(MODULE_NAME).lua
+	rm $(MODULE_FILES_DIR)i18n/$(MODULE_DIR_NAME).*.lmo
+	rm $(ACL_FILES_DIR)$(MODULE_NAME).json
+	rm -r $(STATIC_FILES_DIR)$(MODULE_NAME)

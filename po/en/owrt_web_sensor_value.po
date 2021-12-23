@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dist/view/settings.js:24
+msgid "owrt_web_add_sensor"
+msgstr "Add sensor"
+
+#: dist/view/settings.js:55
+msgid "owrt_web_address"
+msgstr "Address"
+
+#: dist/view/settings.js:25
+msgid "owrt_web_edit_sensor"
+msgstr "Edit sensor"
+
+#: dist/view/settings.js:70
+msgid "owrt_web_error_oid"
+msgstr "OID expected"
+
+#: dist/view/settings.js:30 dist/view/status.js:87
+msgid "owrt_web_name"
+msgstr "Name"
+
+#: dist/view/settings.js:32
+msgid "owrt_web_new"
+msgstr "New"
+
+#: dist/view/settings.js:79
+msgid "owrt_web_period"
+msgstr "Period"
+
+#: dist/view/settings.js:40
+msgid "owrt_web_precision"
+msgstr "Precision"
+
+#: dist/view/settings.js:45
+msgid "owrt_web_proto"
+msgstr "Protocol"
+
+#: dist/lua/controller/owrt_web_sensor_value.lua:4
+msgid "owrt_web_sensor_value"
+msgstr "Digital sensors"
+
+#: dist/view/settings.js:17
+msgid "owrt_web_sensors"
+msgstr "Sensors"
+
+#: dist/view/status.js:83
+msgid "owrt_web_sensors_status"
+msgstr "Sensors status"
+
+#: dist/lua/controller/owrt_web_sensor_value.lua:6
+msgid "owrt_web_settngs"
+msgstr "Settings"
+
+#: dist/view/settings.js:50
+msgid "owrt_web_snmp_community"
+msgstr "Community"
+
+#: dist/view/settings.js:67
+msgid "owrt_web_snmp_oid"
+msgstr "OID"
+
+#: dist/view/settings.js:61
+msgid "owrt_web_snmp_port"
+msgstr "Port"
+
+#: dist/view/settings.js:73
+msgid "owrt_web_snmp_timeout"
+msgstr "Ttimeout"
+
+#: dist/lua/controller/owrt_web_sensor_value.lua:5 dist/view/status.js:89
+msgid "owrt_web_status"
+msgstr "Status"
+
+#: dist/view/status.js:29
+msgid "owrt_web_status_error"
+msgstr "error"
+
+#: dist/view/status.js:27
+msgid "owrt_web_status_norm"
+msgstr "norm"
+
+#: dist/view/status.js:25
+msgid "owrt_web_status_notpolled"
+msgstr "not polled"
+
+#: dist/view/status.js:28
+msgid "owrt_web_status_timeout"
+msgstr "timeout"
+
+#: dist/view/status.js:26
+msgid "owrt_web_status_unknown"
+msgstr "unknown"
+
+#: dist/view/settings.js:35
+msgid "owrt_web_unit"
+msgstr "Unit"
+
+#: dist/view/status.js:88
+msgid "owrt_web_value"
+msgstr "Value"
+
+#~ msgid "owrt_web_cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "owrt_web_delete"
+#~ msgstr "Delete"
+
+#~ msgid "owrt_web_local"
+#~ msgstr "Local"
+
+#~ msgid "owrt_web_new_sensor"
+#~ msgstr "New sensor"
+
+#~ msgid "owrt_web_off"
+#~ msgstr "Off"
+
+#~ msgid "owrt_web_on"
+#~ msgstr "On"
+
+#~ msgid "owrt_web_remote"
+#~ msgstr "Remote"
+
+#~ msgid "owrt_web_sensor"
+#~ msgstr "Sensor"
+
+#~ msgid "owrt_web_state"
+#~ msgstr "State"
+
+#~ msgid "owrt_web_type"
+#~ msgstr "Type"
+
+#~ msgid "owrt_web_sensor_local"
+#~ msgstr "Local"
+
+#~ msgid "owrt_web_sensor_smnp"
+#~ msgstr "smnp sensor"
+
+#~ msgid "owrt_web_snmp_addr"
+#~ msgstr "Address"
+
+#~ msgid "owrt_web_template"
+#~ msgstr "Template"
+
+#~ msgid "owrt_web_toff_desc"
+#~ msgstr "Title \"Off\""
+
+#~ msgid "owrt_web_ton_desc"
+#~ msgstr "Title \"On\""
+
+#~ msgid "owrt_web_digital_inputs"
+#~ msgstr "Digital inputs"
+
+#~ msgid "owrt_web_smnp"
+#~ msgstr "SNMP"
