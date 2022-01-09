@@ -1,9 +1,11 @@
 SECTION="NetPing modules"
 CATEGORY="Base"
 TITLE="EPIC OWRT-WEB-sensor-value"
+
 PKG_NAME="OWRT-WEB-sensor-value"
-PKG_VERSION="0.1"
+PKG_VERSION=0.1
 PKG_RELEASE=1
+PKG_DEPENDS=OWRT_Sensor_value
 
 MODULE_NAME=owrt_web_sensor_value
 MODULE_FILES_DIR=/usr/lib/lua/luci/
@@ -14,10 +16,19 @@ STATIC_FILES_DIR=/www/luci-static/resources/view/
 
 all: install
 
+build:
+	@echo "Nothing to do"
+
+configure:
+	@echo "Nothing to do"
+
 install:
-	cp -r luasrc/* $(MODULE_FILES_DIR)
-	cp -r root/usr/share/rpcd/acl.d/* $(ACL_FILES_DIR)
-	cp -r htdocs/luci-static/resources/view/* $(STATIC_FILES_DIR)
+ifeq ($(origin INSTALL_DIR),command line)
+	for dir in $(MODULE_FILES_DIR) $(ACL_FILES_DIR) $(STATIC_FILES_DIR); do mkdir -p $(INSTALL_DIR)$${dir}; done
+endif
+	cp -r luasrc/* $(INSTALL_DIR)$(MODULE_FILES_DIR)
+	cp -r root/usr/share/rpcd/acl.d/* $(INSTALL_DIR)$(ACL_FILES_DIR)
+	cp -r htdocs/luci-static/resources/view/* $(INSTALL_DIR)$(STATIC_FILES_DIR)
 
 clean:
 	rm $(MODULE_FILES_DIR)controller/$(MODULE_NAME).lua
