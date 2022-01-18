@@ -42,7 +42,7 @@ return L.view.extend({
 	},
 	render: function(html) {
 
-		const sensors = uci.sections(this.uciConfig, 'sensor').filter((e) =>
+		const sensors = uci.sections(this.uciConfig, 'info').filter((e) =>
 			(String(e['.name']).includes('prototype') || String(e['.name']).includes('globals')) === false);
 
 		let items = [];

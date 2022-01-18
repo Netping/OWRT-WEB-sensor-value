@@ -16,7 +16,7 @@ return L.view.extend({
 
 		map = new form.Map(this.uciConfig, _('owrt_web_sensors'));
 
-		section = map.section(form.GridSection, 'sensor');
+		section = map.section(form.GridSection, 'info');
 		section.nodescriptions = true;
 		section.addremove = true;
 		section.anonymous = true;
