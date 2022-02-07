@@ -1,11 +1,11 @@
 SECTION="NetPing modules"
 CATEGORY="Base"
-TITLE="EPIC OWRT-WEB-sensor-value"
+TITLE="OWRT-WEB-sensor-value"
 
 PKG_NAME="OWRT-WEB-sensor-value"
 PKG_VERSION=0.1
 PKG_RELEASE=1
-PKG_DEPENDS=OWRT_Sensor_value
+PKG_DEPENDS=OWRT-sensor-value
 
 MODULE_NAME=owrt_web_sensor_value
 MODULE_FILES_DIR=/usr/lib/lua/luci/
