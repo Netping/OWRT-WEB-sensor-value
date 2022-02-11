@@ -5,21 +5,28 @@ TITLE="OWRT-WEB-sensor-value"
 PKG_NAME="OWRT-WEB-sensor-value"
 PKG_VERSION=0.1
 PKG_RELEASE=1
-PKG_DEPENDS=OWRT-sensor-value
+PKG_DEPENDS=OWRT-sensor-value luci-base
 
 MODULE_NAME=owrt_web_sensor_value
 MODULE_FILES_DIR=/usr/lib/lua/luci/
 ACL_FILES_DIR=/usr/share/rpcd/acl.d/
 STATIC_FILES_DIR=/www/luci-static/resources/view/
 
+INSTALL_DIR=
+
 .PHONY: all install clean
 
-all: install
+all: build preinstall install configure
+
+ipk: build install
 
 build:
 	@echo "Nothing to do"
 
 configure:
+	@echo "Nothing to do"
+
+preinstall:
 	@echo "Nothing to do"
 
 install:
