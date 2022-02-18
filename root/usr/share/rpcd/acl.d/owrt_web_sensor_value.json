@@ -8,7 +8,11 @@
         ],
         "owrt_sensor_value": [ "get_value" ]
       },
-      "uci": [ "owrt_sensor_value" ]
+      "uci": [ "owrt_sensor_value" ],
+      "cgi-io": [ "exec" ],
+      "file": {
+        "ubus call uci get {'config':'owrt_sensor_value'}": [ "exec" ],
+      }
     },
     "write": {
       "ubus": {
