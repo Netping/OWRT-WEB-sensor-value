@@ -34,16 +34,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding: 0.4em 0.4em 0.4em 0.4em;
-  background: #fff;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
 }
-.sensor__status {
-  padding: 4px;
-  border-radius: 4px;
-  background: #fff;
-}
-.sensor__status--0 {
-  background: #90f090;
-}
+.sensor__status {}
+.sensor__status--0 {}
