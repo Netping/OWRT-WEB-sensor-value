@@ -4,7 +4,7 @@ TITLE="OWRT-WEB-sensor-value"
 
 PKG_NAME="OWRT-WEB-sensor-value"
 PKG_VERSION=0.1
-PKG_RELEASE=2
+PKG_RELEASE=15
 PKG_DEPENDS=OWRT-sensor-value luci-base
 
 MODULE_NAME=owrt_web_sensor_value
