@@ -6,19 +6,19 @@
         "uci": [
           "get", "access"
         ],
-        "owrt_sensor_value": [ "get_value" ]
+        "owrt-sensor-value": [ "get_value" ]
       },
-      "uci": [ "owrt_sensor_value" ],
+      "uci": [ "owrt-sensor-value" ],
       "cgi-io": [ "exec" ],
       "file": {
-        "ubus call uci get {'config':'owrt_sensor_value'}": [ "exec" ],
+        "ubus call uci get {'config':'owrt-sensor-value'}": [ "exec" ],
       }
     },
     "write": {
       "ubus": {
         "uci": [ "set", "commit" ]
       },
-      "uci": [ "owrt_sensor_value" ]
+      "uci": [ "owrt-sensor-value" ]
     }
   }
 }

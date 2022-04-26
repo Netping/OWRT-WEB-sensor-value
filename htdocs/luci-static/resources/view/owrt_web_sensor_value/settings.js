@@ -4,11 +4,11 @@
 'require uci';
 
 return L.view.extend({
-	uciConfig: 'owrt_sensor_value',
+	uciConfig: 'owrt-sensor-value',
 	handleReset: null,
 	load: function() {
 		return Promise.all([
-			uci.load('owrt_sensor_value')
+			uci.load('owrt-sensor-value')
 		])
 	},
 	render: function() {

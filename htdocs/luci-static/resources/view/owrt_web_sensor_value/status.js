@@ -5,7 +5,7 @@
 'require rpc';
 'require fs';
 
-let sensors, reloadInterval = 5, uciConfig = 'owrt_sensor_value';
+let sensors, reloadInterval = 5, uciConfig = 'owrt-sensor-value';
 
 const table = {
 	updateData: (id, result, tdesc) => {
@@ -52,7 +52,7 @@ const table = {
 }
 
 const rpcGetState = rpc.declare({
-	object: 'owrt_sensor_value',
+	object: 'owrt-sensor-value',
 	method: 'get_value',
 	params: [ 'id_sensor' ],
 	expect: {}
@@ -97,7 +97,7 @@ const loadConfiguration = () => {
 	if (poll.active()) {
 		poll.remove(pollAction);
 	};
-	L.resolveDefault(fs.exec_direct('ubus', ['call', 'uci', 'get', "{'config':'owrt_sensor_value'}"], 'json'))
+	L.resolveDefault(fs.exec_direct('ubus', ['call', 'uci', 'get', "{'config':'owrt-sensor-value'}"], 'json'))
 		.then(function(json) {
 			sensors = getSensors(json);
 			poll.add(pollAction, 1);
